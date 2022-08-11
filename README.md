@@ -1,8 +1,9 @@
 # StoreApp
 
-![unilever-logo-200px](https://user-images.githubusercontent.com/83571422/184257777-cd8cafe0-7e7f-4d9c-b9c2-2cd5096b0599.png)
+![unilever-logo-200px-README](https://user-images.githubusercontent.com/83571422/184258876-2e92d4cd-0514-4cac-af97-7a6e057cd8f3.png)
 
-#### App Movil para poder acceder al la info de la planta, con respecto al almacen, maquinaria y repuestos.
+
+### App Movil para poder acceder al la info de la planta, con respecto al almacen, maquinaria y repuestos.
 
 ## Versiones
 >Master: => 1.0.0.
