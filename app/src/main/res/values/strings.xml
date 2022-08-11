@@ -1,0 +1,48 @@
+<resources>
+
+
+    <string name="app_name">StoreApp</string>
+
+    <string name="Inicio">inicio</string>
+    <string name="button_list">lista</string>
+    <string name="text_list">Lista de Repuestos</string>
+    <string name="almac_n_works">Almacén Works!!!</string>
+    <string name="registrar">Registrar</string>
+    <string name="Almacen">Almacén</string>
+    <string name="Maquinas">Maquinas</string>
+    <string name="Equipos">Equipos</string>
+    <string name="Bombas">Bombas</string>
+    <string name="Calculadora">Calculadora</string>
+    <string name="Codigo">Codigo</string>
+
+
+    -- >> Calculadora
+    <string name="radio_sumar">Sumar</string>
+    <string name="radio_restar">Restar</string>
+    <string name="edit_text">Digite un numero porfavor</string>
+    <string name="button_sumar">Sumar</string>
+    <string name="button_operation">Realizar</string>
+
+
+    -- >> Botones CRUD
+    <string name="Agregar">Agregar</string>
+    <string name="Consultar">Consultar</string>
+    <string name="Modificar">Modificar</string>
+    <string name="Eliminar">Eliminar</string>
+
+
+    -- >> Swich de bombas
+    <string name="Centrifuga">Centrifuga</string>
+    <string name="Centrifuga_de_eje_libre">Centrifuga de eje libre</string>
+    <string name="Desplazamiento_positivo">Desplazamiento positivo</string>
+    <string name="Lobulos">Lobulos</string>
+    <string name="Piston">Pistón</string>
+
+
+    -- >> RecyclerView de bombas
+    <string name="Nombre">Nombre:</string>
+    <string name="Tipo">Tipo:</string>
+    <string name="Marca">Marca:</string>
+    <string name="Otro">Otro:</string>
+
+</resources>

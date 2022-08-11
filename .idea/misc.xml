@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/drawable/btn_color.xml" value="0.2115" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/drawable/button_rounded.xml" value="0.2105" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/drawable/txt_btn_uno.xml" value="0.2115" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout-land/menuitem.xml" value="0.1728395061728395" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/activity_almacen.xml" value="0.25" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/activity_bomba.xml" value="0.25" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/activity_bombas.xml" value="0.25" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/activity_calculadora.xml" value="0.25" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/activity_jabones.xml" value="0.18" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/activity_lista.xml" value="0.21" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/activity_new_pump.xml" value="0.22" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/activity_pumps.xml" value="0.1675929884566054" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/itembomba.xml" value="0.1" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/itemrepuestos.xml" value="0.25" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/layout/menuitem.xml" value="0.18" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/menu/menudespl.xml" value="0.203125" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/menu/overflow.xml" value="0.20416666666666666" />
+        <entry key="..\:/2. ANDRES/3. PROGRAMAS/StoreApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.174" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
