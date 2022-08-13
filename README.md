@@ -6,7 +6,8 @@
 ### App Movil para poder acceder al la info de la planta, con respecto al almacen, maquinaria y repuestos.
 
 ## Versiones
->Master: => 1.0.0.
+>Master: => V. 1.0.0.
+>Jabones: => V.A 1.0.0.
 
 ## Apoyo
 Por favor, no dudes en [crear un issues](https://github.com/Andycarmo/StoreApp/issues/new) si tienes preguntas o problemas.
