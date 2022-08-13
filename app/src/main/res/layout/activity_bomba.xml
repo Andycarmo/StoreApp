@@ -48,8 +48,7 @@
                 android:layout_width="60dp"
                 android:layout_height="48dp"
                 android:backgroundTint="#3692DA"
-                android:onClick="newPump"
-                app:icon="@android:drawable/ic_input_add" />
+                android:onClick="newPump" />
 
         </LinearLayout>
 
