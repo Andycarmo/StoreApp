@@ -7,93 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".almacen">
 
-    <Button
-        android:id="@+id/btnVolver"
-        android:layout_width="55dp"
-        android:layout_height="48dp"
-        android:onClick="volver"
-        app:icon="?attr/homeAsUpIndicator"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
-
-    <TextView
-        android:id="@+id/tvAlmacen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.061" />
-
-    <EditText
-        android:id="@+id/etUbicacion"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="112dp"
-        android:ems="10"
-        android:hint="Ubicación"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021" />
-
-    <EditText
-        android:id="@+id/etDescripcion"
-        android:layout_width="254dp"
-        android:layout_height="59dp"
-        android:ems="10"
-        android:hint="Descripción"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105" />
-
-    <EditText
-        android:id="@+id/etCeCo"
-        android:layout_width="120dp"
-        android:layout_height="50dp"
-        android:ems="10"
-        android:hint="CeCo"
-        android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/etUbicacion"
-        app:layout_constraintHorizontal_bias="0.61"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021" />
-
-    <Button
-        android:id="@+id/btnRegistrar"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#44C34E"
-        android:text="@string/registrar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.447"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etDescripcion"
-        app:layout_constraintVertical_bias="0.022" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvAlmacen"
-        android:layout_width="402dp"
-        android:layout_height="483dp"
+        android:layout_width="409dp"
+        android:layout_height="338dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegistrar"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

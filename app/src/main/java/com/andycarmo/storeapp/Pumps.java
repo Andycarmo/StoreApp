@@ -30,9 +30,9 @@ public class Pumps extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bomba);
+        setContentView(R.layout.activity_pumps);
 
-        rvPumpsList = findViewById(R.id.rvBombas);
+        rvPumpsList = findViewById(R.id.rvPumps);
 
         bombasAll.add(b1);
         bombasAll.add(b2);

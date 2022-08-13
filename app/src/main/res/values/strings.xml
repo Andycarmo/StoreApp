@@ -45,4 +45,12 @@
     <string name="Marca">Marca:</string>
     <string name="Otro">Otro:</string>
 
+    -- >> RecyclerView de Repuestos
+    <string name="Repuestos">Nombre:</string>
+    <string name="CeCo">Centro de Costos:</string>
+    <string name="Ubicacion">Ubicacion:</string>
+    <string name="Volver">Volver:</string>
+    <string name="Dscripcion">Descripcion:</string>
+
+
 </resources>

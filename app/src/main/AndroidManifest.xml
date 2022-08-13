@@ -22,9 +22,6 @@
             android:name=".newPump"
             android:exported="false" />
         <activity
-            android:name=".bomba"
-            android:exported="false" />
-        <activity
             android:name=".lista"
             android:exported="false" />
         <activity

@@ -2,21 +2,21 @@ package modelo;
 
 public class Repuesto {
 
-    private int ceco;
+    private String ceco;
     private String nombre;
     private String ubicacion;
 
-    public Repuesto(int ceco, String nombre, String ubicacion) {
+    public Repuesto(String ceco, String nombre, String ubicacion) {
         this.ceco = ceco;
         this.nombre = nombre;
         this.ubicacion = ubicacion;
     }
 
-    public int getCeco() {
+    public String getCeco() {
         return ceco;
     }
 
-    public void setCeco(int ceco) {
+    public void setCeco(String ceco) {
         this.ceco = ceco;
     }
 
@@ -39,7 +39,7 @@ public class Repuesto {
     @Override
     public String toString() {
         return "Repuesto{" +
-                "ceco=" + ceco +
+                "ceco='" + ceco + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", ubicacion='" + ubicacion + '\'' +
                 '}';

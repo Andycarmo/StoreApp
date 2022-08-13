@@ -6,67 +6,65 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="408dp"
-        android:layout_height="160dp"
-        android:orientation="horizontal"
+        android:layout_width="372dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="700dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.581">
 
         <LinearLayout
-            android:layout_width="268dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvRepuesto"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
 
-                <TextView
-                    android:id="@+id/tvRepuesto"
-                    android:layout_width="wrap_content"
-                    android:layout_height="18dp"
-
-                    android:layout_weight="1"
-                    android:hint="Nombre"
-                    app:layout_constraintTop_toTopOf="parent" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:orientation="horizontal"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
-
-                <TextView
-                    android:id="@+id/tvCeco"
-                    android:layout_width="wrap_content"
-                    android:layout_height="18dp"
-                    android:layout_weight="1"
-                    android:hint="Centro de costos" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tvUbicacion"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:hint="Ubicación" />
-            </LinearLayout>
-
+                android:layout_weight="1"
+                android:hint="@string/Nombre"
+                android:textColorHint="#546E7A" />
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tvCeco"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:hint="@string/CeCo"
+                android:inputType="text"
+                android:textColorHint="#546E7A"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvUbicacion"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:hint="@string/Ubicacion"
+                android:textColorHint="#546E7A" />
         </LinearLayout>
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
