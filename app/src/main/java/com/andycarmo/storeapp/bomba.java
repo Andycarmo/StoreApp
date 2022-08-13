@@ -29,13 +29,11 @@ public class bomba extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bomba);
 
-
     }
 
     public void newPump(View view){
         Intent nP = new Intent(this, newPump.class);
         startActivity(nP);
     }
-
 
 }

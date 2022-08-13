@@ -17,25 +17,20 @@
         app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
-            android:layout_width="139dp"
-            android:layout_height="134dp"
-            android:orientation="vertical"></LinearLayout>
-
-        <LinearLayout
             android:layout_width="268dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="47dp"
+                android:layout_height="20dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/tvRepuesto"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_height="18dp"
+
                     android:layout_weight="1"
                     android:hint="Nombre"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -43,25 +38,23 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
+                android:layout_height="20dp"
                 android:orientation="horizontal"
-                android:paddingTop="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent">
 
                 <TextView
                     android:id="@+id/tvCeco"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="18dp"
                     android:layout_weight="1"
                     android:hint="Centro de costos" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="49dp"
-                android:orientation="horizontal"
-                android:paddingTop="10dp">
+                android:layout_height="20dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/tvUbicacion"
@@ -70,6 +63,8 @@
                     android:layout_weight="1"
                     android:hint="Ubicación" />
             </LinearLayout>
+
+        </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
