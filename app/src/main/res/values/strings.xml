@@ -44,6 +44,7 @@
     <string name="Tipo">Tipo:</string>
     <string name="Marca">Marca:</string>
     <string name="Otro">Otro:</string>
+    <string name="Pump">Pump</string>
 
     -- >> RecyclerView de Repuestos
     <string name="Repuestos">Nombre:</string>

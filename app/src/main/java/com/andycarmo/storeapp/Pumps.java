@@ -70,10 +70,10 @@ public class Pumps extends AppCompatActivity {
             public AdaptadorPumpsHolder(@NonNull View itemView) {
                 super(itemView);
 
-                tv1 = itemView.findViewById(R.id.textV1);
-                tv2 = itemView.findViewById(R.id.textV2);
-                tv3 = itemView.findViewById(R.id.textV3);
-                tv4 = itemView.findViewById(R.id.textV4);
+                tv1 = itemView.findViewById(R.id.tvNombre);
+                tv2 = itemView.findViewById(R.id.tvMarca);
+                tv3 = itemView.findViewById(R.id.tvTipo);
+                tv4 = itemView.findViewById(R.id.tvOtro);
                 imv = itemView.findViewById(R.id.ImagenBomba);
 
             }

@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.squareup.picasso.Picasso;
-
 public class Jabones extends AppCompatActivity {
 
     @Override
@@ -25,10 +23,10 @@ public class Jabones extends AppCompatActivity {
         startActivity(c);
     }
 
-    public void listaRepuestos(View view){
-        Intent l = new Intent(this, lista.class);
-        startActivity(l);
-    }
+ //   public void listaRepuestos(View view){
+ //       Intent l = new Intent(this, lista.class);
+ //       startActivity(l);
+ //   }
 
     public void bombas(View view){
         Intent b = new Intent(this, Pumps.class);

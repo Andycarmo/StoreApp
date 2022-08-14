@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -99,10 +98,10 @@ public class lista extends AppCompatActivity {
             public AdaptadorBombasHolder(@NonNull View itemView) {
                 super(itemView);
 
-                tv1 = itemView.findViewById(R.id.textV1);
-                tv2 = itemView.findViewById(R.id.textV2);
-                tv3 = itemView.findViewById(R.id.textV3);
-                tv4 = itemView.findViewById(R.id.textV4);
+                tv1 = itemView.findViewById(R.id.tvNombre);
+                tv2 = itemView.findViewById(R.id.tvTipo);
+                tv3 = itemView.findViewById(R.id.tvMarca);
+                tv4 = itemView.findViewById(R.id.tvOtro);
                 imv = itemView.findViewById(R.id.ImagenBomba);
 
             }

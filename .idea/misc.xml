@@ -31,11 +31,17 @@
         <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/drawable/test2.xml" value="0.1" />
         <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/drawable/test3.xml" value="0.1" />
         <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/activity_almacen.xml" value="0.1675929884566054" />
+        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/activity_almacen2.xml" value="0.1675929884566054" />
         <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/activity_bomba.xml" value="0.1675929884566054" />
         <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/activity_jabones.xml" value="0.1675929884566054" />
+        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/activity_lista.xml" value="0.1675929884566054" />
+        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/activity_new_pump.xml" value="0.1675929884566054" />
         <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/activity_pumps.xml" value="0.1675929884566054" />
-        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/itembomba.xml" value="0.1675929884566054" />
-        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/itemrepuestos.xml" value="0.33" />
+        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/itembomba.xml" value="0.25" />
+        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/itemrepuesto.xml" value="0.32011331444759206" />
+        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/itemrepuestos.xml" value="0.25" />
+        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/itemrepuestos2.xml" value="0.1675929884566054" />
+        <entry key="..\:/2_ANDRES/3_PROGRAMAS/AndroidStudio/Projects/StoreApp/app/src/main/res/layout/menuitem.xml" value="0.1675929884566054" />
       </map>
     </option>
   </component>
