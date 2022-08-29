@@ -8,12 +8,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import io.realm.Realm;
+
 public class MainActivity extends AppCompatActivity implements View.OnTouchListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
         Button btn = (Button) findViewById(R.id.btnInicio);
         btn.setOnTouchListener(this);
     }

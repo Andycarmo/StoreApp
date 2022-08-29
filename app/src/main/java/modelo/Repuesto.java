@@ -1,15 +1,22 @@
 package modelo;
 
-public class Repuesto {
+import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
-    private String ceco;
-    private String nombre;
-    private String ubicacion;
+public class Repuesto extends RealmObject {
 
-    public Repuesto(String ceco, String nombre, String ubicacion) {
-        this.ceco = ceco;
-        this.nombre = nombre;
-        this.ubicacion = ubicacion;
+    @PrimaryKey
+    long id;
+    String ceco;
+    String nombre;
+    String ubicacion;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getCeco() {
@@ -34,14 +41,5 @@ public class Repuesto {
 
     public void setUbicacion(String ubicacion) {
         this.ubicacion = ubicacion;
-    }
-
-    @Override
-    public String toString() {
-        return "Repuesto{" +
-                "ceco='" + ceco + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", ubicacion='" + ubicacion + '\'' +
-                '}';
     }
 }

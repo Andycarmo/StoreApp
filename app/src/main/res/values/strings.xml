@@ -1,5 +1,10 @@
 <resources>
 
+    <array name="test">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </array>
 
     <string name="app_name">StoreApp</string>
 

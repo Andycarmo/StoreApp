@@ -10,8 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.protobuf.Empty;
+//import com.google.firebase.firestore.FirebaseFirestore;
+//import com.google.protobuf.Empty;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,7 +21,7 @@ public class newPump extends AppCompatActivity {
     private EditText edtNombre, edtTipo, edtMarca, edtDocumento;
     private Button btnRegistrar, btnEditar, btnEliminar, btnConsultar;
 
-    FirebaseFirestore firestore;
+    //FirebaseFirestore firestore;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -38,7 +38,7 @@ public class newPump extends AppCompatActivity {
         btnEliminar = findViewById(R.id.btnEliminar);
         btnConsultar = findViewById(R.id.btnConsultar);
 
-        firestore = FirebaseFirestore.getInstance();
+        //firestore = FirebaseFirestore.getInstance();
 
         btnRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,7 +78,7 @@ public class newPump extends AppCompatActivity {
         bomba.put("Tipo", edtTipo.getText().toString());
         bomba.put("Marca", edtMarca.getText().toString());
 
-        firestore.collection("Bombas").document(edtDocumento.getText().toString()).set(bomba);
+        //firestore.collection("Bombas").document(edtDocumento.getText().toString()).set(bomba);
 
         clean();
 
@@ -90,13 +90,13 @@ public class newPump extends AppCompatActivity {
         bomba.put("Tipo", edtTipo.getText().toString());
         bomba.put("Marca", edtMarca.getText().toString());
 
-        firestore.collection("Bombas").document(edtDocumento.getText().toString()).update(bomba);
+        //firestore.collection("Bombas").document(edtDocumento.getText().toString()).update(bomba);
 
     }
 
     public void eliminar() {
 
-        firestore.collection("Bombas").document(edtDocumento.getText().toString()).delete();
+        //firestore.collection("Bombas").document(edtDocumento.getText().toString()).delete();
 
     }
 

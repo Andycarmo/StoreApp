@@ -13,11 +13,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".MyApp"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
             android:name=".Pumps"
             android:exported="false" />
+
         <activity
             android:name=".newPump"
             android:exported="false" />
