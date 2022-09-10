@@ -2,21 +2,33 @@ package modelo;
 
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;
+import io.realm.annotations.Required;
 
 public class Repuesto extends RealmObject {
 
     @PrimaryKey
-    long id;
+    String id;
+    @Required
+    private String status = TaskStatus.Open.name();
     String ceco;
     String nombre;
     String ubicacion;
 
-    public long getId() {
+    public void setStatus(TaskStatus status) { this.status = status.name(); }
+    public String getStatus() { return this.status; }
+    public Repuesto(String _id) { this.id = _id; }
+    public Repuesto() {}
+
+    public String getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(String id) {
         this.id = id;
+    }
+
+     public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getCeco() {
