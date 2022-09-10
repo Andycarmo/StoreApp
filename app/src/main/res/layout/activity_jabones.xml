@@ -12,7 +12,7 @@
         android:layout_height="120dp"
         android:layout_marginTop="100dp"
         android:background="@drawable/btn_jabones"
-        android:onClick="almacen"
+        android:onClick="almacen2"
         android:text="@string/Almacen"
         android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/btnBombas"
