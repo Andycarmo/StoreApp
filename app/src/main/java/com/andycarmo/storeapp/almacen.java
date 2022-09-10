@@ -2184,13 +2184,13 @@ Repuesto	r1051	 = new Repuesto(	"1000359480	"	,	"CELDA DE CARGA TANQUE GLICERINA
      repuestosAll	.	add	(	r1062	)	;
 **/
 
-        Button add = findViewById(R.id.insert);
-        Button update = findViewById(R.id.update);
-        Button read = findViewById(R.id.read);
-        Button delete = findViewById(R.id.delete);
+      //  Button add = findViewById(R.id.insert);
+      //  Button update = findViewById(R.id.update);
+       // Button read = findViewById(R.id.read);
+       // Button delete = findViewById(R.id.delete);
       //  showData = findViewById(R.id.show_data1);
 
-        add.setOnClickListener(this);
+        //add.setOnClickListener(this);
  //       delete.setOnClickListener(this);
  //       read.setOnClickListener(this);
   //      update.setOnClickListener(this);
