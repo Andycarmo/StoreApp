@@ -7,6 +7,7 @@
 
 ## Versiones
 >Master: => 1.0.0.
+>Jabones: => 2.0.0.
 
 ## Apoyo
 Por favor, no dudes en [crear un issues](https://github.com/Andycarmo/StoreApp/issues/new) si tienes preguntas o problemas.
