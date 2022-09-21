@@ -6,19 +6,101 @@
     android:layout_height="match_parent"
     tools:context=".Jabones">
 
-    <Button
-        android:id="@+id/btnAlmacen"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="100dp"
-        android:background="@drawable/btn_jabones"
-        android:onClick="almacen2"
-        android:text="@string/Almacen"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/btnBombas"
-        app:layout_constraintHorizontal_bias="0.72"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="300dp"
+                app:srcCompat="@drawable/unilever_logo_200px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Boton de Almacen.-->
+            <Button
+                android:id="@+id/btnAlmacen"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_jabones"
+                android:onClick="almacen"
+                android:text="@string/Almacen"
+                android:textSize="24sp" />
+
+            <!--Boton de Bombas.-->
+            <Button
+                android:id="@+id/btnBombas"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_jabones"
+                android:onClick="bombas"
+                android:text="@string/Bombas"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--Boton de Lubricantes.-->
+            <Button
+                android:id="@+id/btnLub"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_jabones"
+                android:onClick="lubricantes"
+                android:text="Lubricantes" />
+
+            <!--Boton de Bandas.-->
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/btn_jabones"
+                android:onClick="bandas"
+                android:text="BANDAS"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+    <!--Boton de Calculadora.-->
 
     <Button
         android:id="@+id/button"
@@ -34,12 +116,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.846" />
 
+    <!--Boton de Lista.-->
     <Button
         android:id="@+id/button2"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:background="@drawable/btn_jabones"
-        android:onClick="listaRepuestos"
         android:text="@string/button_list"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,58 +129,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.919" />
-
-    <Button
-        android:id="@+id/btnBombas"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="68dp"
-        android:background="@drawable/btn_jabones"
-        android:onClick="bombas"
-        android:text="@string/Bombas"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnLub"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/btn_jabones"
-        android:text="Lubricantes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.602"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAlmacen"
-        app:layout_constraintVertical_bias="0.067" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnBombas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/unilever_logo_200px" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginEnd="68dp"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBombas"
-        app:layout_constraintVertical_bias="0.154" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
