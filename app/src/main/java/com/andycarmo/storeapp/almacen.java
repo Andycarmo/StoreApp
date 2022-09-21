@@ -16,22 +16,22 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
-
 import io.realm.Realm;
 import modelo.Repuesto;
 
-public class almacen extends AppCompatActivity implements View.OnClickListener
-{
+
+public class almacen extends AppCompatActivity{
     private RecyclerView rvRepuestoslist;
-    //TextView tvAlmac;
-    //EditText edtxCeco, edtxUbicacion, edtxDescripcion;
+    TextView tvAlmac;
+    EditText edtxCeco, edtxUbicacion, edtxDescripcion;
     //Button btnRegistrar;
     //FirebaseFirestore mFirestore;
 
     //DatabaseReference DatabaseReference = FirebaseDatabase.getInstance().getReference();
    // DatabaseReference myRowC = DatabaseReference.child("txt");
-   //ArrayList <Repuesto> repuestosAll = new ArrayList<>();
- /**   Repuesto r1 = new Repuesto("85370590", "ACOPOS P3 SERVO DRIVE 3X 200-480 VAC, 2", "2-C-0");
+    ArrayList <Repuesto> repuestosAll = new ArrayList<>();
+
+    Repuesto r1 = new Repuesto("85370590", "ACOPOS P3 SERVO DRIVE 3X 200-480 VAC, 2", "2-C-0");
     Repuesto r2 = new Repuesto("85370591", "ACOPOS P3 SERVO DRIVE 3X 200-480 VAC, 4", "2-C-0");
     Repuesto r3 = new Repuesto("85370598", "I/O LINK ACTUATOR CABLE LENGTH 5 METER", "2-G-0");
     Repuesto r4 = new Repuesto("85290423", "T DESCARGUE TOLVA SIST/DOSIF 2X1 MESP","6-A-7");
@@ -1094,7 +1094,7 @@ Repuesto	r1051	 = new Repuesto(	"1000359480	"	,	"CELDA DE CARGA TANQUE GLICERINA
  Repuesto	r1061	 = new Repuesto(	"1000187433	"	,	"CEPILLO A/INOX C/MANGO PLASTICO 	"	,	"	11-G-2	"	)	;
   Repuesto	r1062	 = new Repuesto(	"1000187432	"	,	"CEPILLO ACERO C/MANGO PLASTICO 	"	,	"	11-G-2	"	)	;
 
-**/
+
 
   //  Realm realm;
 
@@ -1106,19 +1106,19 @@ Repuesto	r1051	 = new Repuesto(	"1000359480	"	,	"CELDA DE CARGA TANQUE GLICERINA
         setContentView(R.layout.activity_almacen);
 
         //>>>>>  TextView para el Realtime Database  <<<< ///
-        //tvAlmac = findViewById(R.id.tvAlmacen);
-        //edtxCeco = findViewById(R.id.etCeCo);
-        //edtxUbicacion= findViewById(R.id.etUbicacion);
-        //edtxDescripcion = findViewById(R.id.etDescripcion);
-        //btnRegistrar = findViewById(R.id.btnRegistrar);
+ //       tvAlmac = findViewById(R.id.tvAlmacen);
+//        edtxCeco = findViewById(R.id.etCeCo);
+ //       edtxUbicacion= findViewById(R.id.etUbicacion);
+ //       edtxDescripcion = findViewById(R.id.etDescripcion);
+ //       btnRegistrar = findViewById(R.id.btnRegistrar);
         //mFirestore = FirebaseFirestore.getInstance();
 
         //>>>>>  Recycler View  <<<< ///
-         //rvRepuestoslist = findViewById(R.id.rvAlmacen);
+         rvRepuestoslist = findViewById(R.id.rvAlmacen);
 
         // realm= Realm.getDefaultInstance();
 
-/**
+
         repuestosAll.add(r1);
         repuestosAll.add(r2);
         repuestosAll.add(r3);
@@ -2182,7 +2182,7 @@ Repuesto	r1051	 = new Repuesto(	"1000359480	"	,	"CELDA DE CARGA TANQUE GLICERINA
      repuestosAll	.	add	(	r1060	)	;
      repuestosAll	.	add	(	r1061	)	;
      repuestosAll	.	add	(	r1062	)	;
-**/
+
 
       //  Button add = findViewById(R.id.insert);
       //  Button update = findViewById(R.id.update);
@@ -2196,9 +2196,9 @@ Repuesto	r1051	 = new Repuesto(	"1000359480	"	,	"CELDA DE CARGA TANQUE GLICERINA
   //      update.setOnClickListener(this);
 
 
-     //LinearLayoutManager LLMRepuestos = new LinearLayoutManager(this);
-      //  rvRepuestoslist.setLayoutManager(LLMRepuestos);
-        //rvRepuestoslist.setAdapter(new AdaptadorRepuestos());
+     LinearLayoutManager LLMRepuestos = new LinearLayoutManager(this);
+     rvRepuestoslist.setLayoutManager(LLMRepuestos);
+     rvRepuestoslist.setAdapter(new AdaptadorRepuestos());
 
 
         /**  btnRegistrar.setOnClickListener(new View.OnClickListener() {
@@ -2211,7 +2211,7 @@ Repuesto	r1051	 = new Repuesto(	"1000359480	"	,	"CELDA DE CARGA TANQUE GLICERINA
 
     }
 
-        @Override
+/**        @Override
     public void onClick(View v){
         if(v.getId()==R.id.btnAdd){
             Log.d("Insert", "Insert");
@@ -2229,10 +2229,10 @@ Repuesto	r1051	 = new Repuesto(	"1000359480	"	,	"CELDA DE CARGA TANQUE GLICERINA
         }
  }
 
-    private void ShowInsertDialog() {
-        AlertDialog.Builder al = new AlertDialog.Builder(almacen.this);
-        View view = getLayoutInflater().inflate(R.layout.data_input_almacen,null);
-        al.setView(view);
+ //   private void ShowInsertDialog() {
+   //     AlertDialog.Builder al = new AlertDialog.Builder(almacen.this);
+     //   View view = getLayoutInflater().inflate(R.layout.data_input_almacen,null);
+       // al.setView(view);
 
        // final EditText ceco=view.findViewById(R.id.etCeco_new);
         //final EditText name=view.findViewById(R.id.etName_new);
@@ -2284,9 +2284,8 @@ Repuesto	r1051	 = new Repuesto(	"1000359480	"	,	"CELDA DE CARGA TANQUE GLICERINA
         }
     }
 
-
-    /**private class AdaptadorRepuestos extends RecyclerView.Adapter<AdaptadorRepuestos.AdaptadorRepuestosHolder> {
-
+**/
+   private class AdaptadorRepuestos extends RecyclerView.Adapter<AdaptadorRepuestos.AdaptadorRepuestosHolder> {
 
         @NonNull
         @Override
@@ -2379,5 +2378,5 @@ Repuesto	r1051	 = new Repuesto(	"1000359480	"	,	"CELDA DE CARGA TANQUE GLICERINA
         });  **/
 
 
-       }}
+
 
