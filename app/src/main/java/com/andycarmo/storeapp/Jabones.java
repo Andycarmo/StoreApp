@@ -20,6 +20,16 @@ public class Jabones extends AppCompatActivity {
         startActivity(a);
     }
 
+    public void bandas(View view){
+        Intent b = new Intent(this, bandas.class);
+        startActivity(b);
+    }
+
+    public void lubricantes(View view){
+        Intent l = new Intent(this, lubricantes.class);
+        startActivity(l);
+    }
+
     public void calculadora(View view){
         Intent c = new Intent(this, calculadora.class);
         startActivity(c);
