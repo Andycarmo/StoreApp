@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:paddingHorizontal="15dp"
     android:orientation="vertical">
 
     <LinearLayout
@@ -14,7 +15,7 @@
         <ImageView
             android:id="@+id/ImagenBomba"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="106dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="1dp"
             android:layout_marginEnd="20dp"
@@ -62,7 +63,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="162dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:orientation="vertical">
