@@ -17,8 +17,6 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         Button btn = (Button) findViewById(R.id.btnInicio);
         btn.setOnTouchListener(this);
     }
