@@ -26,10 +26,10 @@ public class almacen extends AppCompatActivity {
     TextView tvAlmac;
     EditText edtxCeco, edtxUbicacion, edtxDescripcion;
     Button btnRegistrar;
-    FirebaseFirestore mFirestore;
+    //FirebaseFirestore mFirestore;
 
-    DatabaseReference DatabaseReference = FirebaseDatabase.getInstance().getReference();
-    DatabaseReference myRowC = DatabaseReference.child("txt");
+    //DatabaseReference DatabaseReference = FirebaseDatabase.getInstance().getReference();
+    //DatabaseReference myRowC = DatabaseReference.child("txt");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +42,7 @@ public class almacen extends AppCompatActivity {
         edtxUbicacion= findViewById(R.id.etUbicacion);
         edtxDescripcion = findViewById(R.id.etDescripcion);
         btnRegistrar = findViewById(R.id.btnRegistrar);
-        mFirestore = FirebaseFirestore.getInstance();
+      //  mFirestore = FirebaseFirestore.getInstance();
 
         btnRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,7 +61,7 @@ public class almacen extends AppCompatActivity {
         repuesto.put("Ubicación", edtxUbicacion.getText().toString());
         repuesto.put("Descripción", edtxDescripcion.getText().toString());
 
-        mFirestore.collection("Repuestos").document().set(repuesto);
+      //  mFirestore.collection("Repuestos").document().set(repuesto);
 
     }
 
@@ -79,25 +79,25 @@ public class almacen extends AppCompatActivity {
 
 
 
-    @Override
-    protected void onStart() {
-        super.onStart();
+  //  @Override
+   // protected void onStart() {
+   //     super.onStart();
 
-        myRowC.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                String texto = Objects.requireNonNull(snapshot.getValue().toString());
-                tvAlmac.setText(texto);
+        //myRowC.addValueEventListener(new ValueEventListener() {
+         //   @Override
+        //    public void onDataChange(@NonNull DataSnapshot snapshot) {
+        //        String texto = Objects.requireNonNull(snapshot.getValue().toString());
+        //        tvAlmac.setText(texto);
+        //    }
+
+        //    @Override
+        //    public void onCancelled(@NonNull DatabaseError error) {
+
             }
+       // });
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
-
-    }
+   // }
 
 
 
-}
+//}
